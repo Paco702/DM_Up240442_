@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "tsx watch src/app.ts",
   "scripts": {
-    "dev": "tsx watch src/app.ts"
+    "dev": "tsx watch --watch .src/app.ts"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",

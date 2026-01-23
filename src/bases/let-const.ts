@@ -1,0 +1,22 @@
+let nombreDelaVariable: number = 10;
+var nombreDelaVariableDos: string = "texto";
+const nombreDelaVariableTres: boolean = true;
+nombreDelaVariable = 30;
+console.log(nombreDelaVariable, nombreDelaVariableDos, nombreDelaVariableTres);
+let name: string = "Juan Francisco";
+let lastName: string = "Perez Ramirez";
+let fullName: string = name + " " + lastName;
+console.log(fullName);
+
+let product1: string = "Jugo";
+let number1: number = 10;
+let product2: string = "leche";
+let number2: number = 35;
+let product3: string = "pan";
+let number3: number = 20;
+console.log("Lista de compras:");
+console.log("Producto " + product1 + ": " + number1);
+console.log("Producto " + product2 + ": " + number2);
+console.log("Producto " + product3 + ": " + number3);
+let totalf = number1 + number2 + number3;
+console.log("Total de la compra: " + totalf);
