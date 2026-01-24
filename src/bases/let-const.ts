@@ -20,4 +20,3 @@ console.log("Producto " + product2 + ": " + number2);
 console.log("Producto " + product3 + ": " + number3);
 let totalf = number1 + number2 + number3;
 console.log("Total de la compra: " + totalf);
-const IVA: number = 0.21;
